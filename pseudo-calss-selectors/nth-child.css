@@ -1,0 +1,22 @@
+/* 
+whole body
+*/
+/* :nth-child(1){
+    background: red;
+} */
+
+/* ================================= */
+
+/* it will select 3rd child of each parent */
+
+/* :nth-child(3){
+    background: red;
+}  */
+
+/* ================================= */
+/* it will select 3rd child of each parent  if it is p*/
+
+p:nth-child(3){
+    background: red;
+}
+
