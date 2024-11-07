@@ -1,0 +1,10 @@
+/* p which are first child will get selected */
+/* p:first-of-type{
+    background-color: brown;
+} */
+
+/* ================================= */
+/* div:first-of-type{
+    background-color: yellow;
+} */
+
