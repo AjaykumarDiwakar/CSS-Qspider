@@ -1,0 +1,29 @@
+/* select last child ->body tag will be selected*/
+/* :last-child{
+    background-color: yellow;
+} */
+
+
+/* ================================== */
+/* Every which is last child will get selected */
+
+/* p:last-child{
+background-color: red;
+} */
+
+/* last child of div if it is p will get selected */
+
+/* div>p:last-child{
+    background-color: red;
+} */
+
+
+/* last child of article if it is p will get selected */
+
+/* article>p:last-child{
+    background-color: red;
+} */
+/* the last child inside article will be selected no matter which type of tag it is */
+article>:last-child{
+    background-color: red;
+}
