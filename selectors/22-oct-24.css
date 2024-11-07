@@ -1,0 +1,40 @@
+/* selectors */
+/* grouping selector */
+/* div,aside{
+    color:red;
+} */
+
+
+/* descendent selector(space)
+
+div p{
+    color: magenta;
+} */
+
+
+/* direct child selection(>)
+
+aside>p{
+    color: blue;
+} */
+
+/*Immediate sibling selector(+)  */
+
+/* div>p+article{
+    background-color: brown;
+} */
+
+/* i f we use > after div then only the direct child of div whose tag name is p will be targeted but im case as shown below we use space after div that's why every non-direct as  well as direct p tag will be targeted... */
+div p+article{
+    background-color: brown;
+}
+
+/* General sibling selector (~)*/
+
+p~span{
+    background-color: red;
+}
+
+
+/* pseudo class selector */
+

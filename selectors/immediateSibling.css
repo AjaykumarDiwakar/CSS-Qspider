@@ -1,0 +1,16 @@
+/* the first sibling means first of that type i.e. first div as we know the syntax is 
+
+first sibling + immediate next sibling{
+properties;
+}
+
+//for immediate next sibling of  immediate next sibling
+first sibling + immediate next sibling+immediate next sibling{
+properties;
+}
+
+*/
+div+p+p{
+    background: red;
+}
+

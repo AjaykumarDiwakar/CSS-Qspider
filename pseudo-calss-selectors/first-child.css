@@ -1,0 +1,33 @@
+/* first child of html tag that is body will be selected */
+
+/* :first-child{
+    background-color: red;
+} */
+ /* ==================================== */
+
+
+/* first child of body will get selected */
+
+/* body>:first-child{
+    background-color: red;
+} */
+
+/* ==================================== */
+
+/* first child which is p get selected Note: that p tag directly inside body is not first child as div is the first child */
+/* this is the reason why p of article -2 is not selected as p is there second child and not first */
+/* only p which are first child will be selected */
+/* p:first-child{
+    background-color: red;
+} */
+/* ================================= */
+
+/* first child of div if it is p will get selected */
+
+/* div>p:first-child{
+    background-color: red;
+} */
+
+
+/* ================================== */
+

@@ -1,0 +1,28 @@
+/* :first-child */
+/* article>:first-child{
+    background-color: red;
+} */
+
+/* :last-child */
+/* article>:last-child{
+    background-color: aquamarine;
+} */
+
+/* nth-child(number) */
+
+article>p:first-of-type{
+    background-color: bisque;
+
+}
+
+
+/* to get first child of particular type */
+p:first-of-type{
+ background-color: yellow;
+}
+
+p:last-of-type{
+ color: olive;
+}
+
+
