@@ -1,0 +1,14 @@
+/* div{
+    height: 500px;;
+    background-image: linear-gradient(to bottom,green,yellow,red,grey,blue,hsl(0, 81%, 46%));
+} */
+
+/* p:nth-last-of-type(3){
+    background-image: linear-gradient(to bottom left,red,yellow,green,pink,blue);
+} */
+p:nth-last-child(3){
+    background-image: linear-gradient(to bottom left,red,yellow,green,pink,blue);
+}
+/* the difference between p:nth-last-child(3) and 
+p:nth-last-of-type(3) is same as mentioned in case of nth-child and nth-of-type.
+*/
