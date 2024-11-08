@@ -1,0 +1,26 @@
+a{
+    display: block;
+    margin: 40px;
+    height: 200px;
+    /* color: dee; */
+}
+a:link{
+    /* background-image: linear-gradient(to top,red,yellow,pink ,green); */
+    background: linear-gradient(to top left,green,red,yellow);
+}
+a:active{
+    background: linear-gradient(to bottom right,grey,pink,rgb(112,22,234),yellow,deepskyblue);
+}
+a:visited{
+    background: linear-gradient(to top right,yellow,deeppink,skyblue,green,black)
+}
+/* a:hover{
+    background: linear-gradient(to left,red,yellow,blue,skyblue,deepskyblue,deeppink);
+} */
+ a:hover+a{
+    background: linear-gradient(to left,red,yellow,blue,skyblue,deepskyblue,deeppink);
+ }
+ input:focus{
+    outline: 2px solid blue;
+    /* outline-offset: 2px; */
+ }
