@@ -1,0 +1,13 @@
+/* p:nth-of-type(3){
+    background-color: red;
+} */
+/* p:nth-child(3){
+    background-color: red;
+} */
+
+/* the difference between above two selectors is that if we use nth-of-tpe then that selector(let n= 3 and tag is p) will select 3rd paragraph tag for each parent no matter the parent is itself a child of some other tag or not but in each parent it will check if 3rd paragraph is present or not no matter what will be its sequence number as a child of that Parent
+
+
+but in case of nth-child() if type is p and count is 3 then it will check the sequnce number of child of  each parent if the third child is p then it will be selected.
+
+*/
