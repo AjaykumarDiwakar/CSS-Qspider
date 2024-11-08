@@ -1,0 +1,18 @@
+/* selected item will be h1 and h2 no matter where they are */
+/* :is(h1,h2){
+    background: linear-gradient(to left,green,yellow,red,pink,deepskyblue,grey);
+} */
+ /* selected item will be h1,h2 and they are child of div */
+/* div>:is(h1,h2){
+    background: linear-gradient(to left,green,yellow,red,pink,deepskyblue,grey);
+} */
+ /* no selection as h1 and h2 are not direct child of article */
+/* article>:is(h1,h2){
+    background: linear-gradient(to left,green,yellow,red,pink,deepskyblue,grey);
+} */
+
+/* h1 and h2 of div -2 which is in article will be selected */
+article :is(h1,h2){
+    background: linear-gradient(to left,green,yellow,red,pink,deepskyblue,grey);
+}
+
